@@ -128,7 +128,7 @@ public class Interval {
         }
 
         Interval other = (Interval) obj;
-        return (this.begin == other.begin && this.end == other.end);
+        return (this.begin.equals(other.begin) && this.end.equals(other.end));
     }
 
     @Override
